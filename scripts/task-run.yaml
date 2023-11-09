@@ -31,6 +31,8 @@ spec:
       value: ml-demo
     - name: NUM_EPOCHS
       value: '100'
+    - name: DEPLOY_ARTIFACTS
+      value: 'Y'
   pipelineRef:
     name: train-model
   serviceAccountName: pipeline
